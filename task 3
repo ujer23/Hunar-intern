@@ -1,0 +1,34 @@
+
+
+Vulnerability Discovery and Resolution
+
+Date: [21/10/2024]  
+Web Application: [https://www.shino.de/parkcalc/]  
+
+How I Found the Vulnerability
+
+1. Configured OWASP ZAP: 
+- Installed and launched OWASP ZAP.
+- Set it up as a proxy by configuring my browser to route traffic through ZAP (localhost:8080).
+
+2. Performed Scanning:
+- Spidered the Application**: 
+- Used the spider feature to explore the website, which identified various endpoints.
+- Active Scanning: 
+- Conducted an active scan to check for vulnerabilities in the identified endpoints.
+
+3. Identified Vulnerability:
+- Found an alert indicating = [XSS]
+
+How I Solved the Vulnerability
+
+1. Analyzed the Vulnerability :
+- Reviewed the alert details to understand how the vulnerability could be exploited.
+
+2. Implemented Fixes:
+["SELECT * FROM users WHERE username = calculate;]
+- For XSS:
+- Added **output encoding** to ensure user inputs are sanitized before being rendered in the browser.
+
+3. Re-teste:
+   - Ran ZAP again on the affected endpoints to confirm that the vulnerabilities were resolved, and the alerts no longer appeared.
