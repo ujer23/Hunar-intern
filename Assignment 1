@@ -1,0 +1,43 @@
+IT Security Policy Recommendations
+
+Prepared by: [Madiha Khan]  
+Position: IT Intern, Hunar
+
+# Task 1: Password Policy Review
+
+# Current Password Policy
+- Minimum Password Length: 8 characters
+- Complexity Requirements: At least one uppercase letter, one lowercase letter, one number, and one special character
+- Expiration: Passwords expire every 90 days
+- Password Reuse:  Cannot reuse passwords from the last five cycles
+- Account Lockout: Locks after five unsuccessful attempts with a 15-minute lockout
+
+# Strength Assessment
+Sample passwords were tested using online tools like Have I Been Pwned and Kaspersky Password Checker. The assessment highlighted that:
+- 8-character passwords are prone to compromise.
+- Simple patterns (like "efdd442l#!") remain weak, even with special characters.
+
+# Recommendations
+1. Increase Minimum Length: Set a 12-character minimum.
+2. Enhanced Complexity : Require at least three of the following: uppercase letters, lowercase letters, numbers, and special characters.
+3. Implement MFA: Apply multifactor authentication for critical accounts.
+4. Extend Expiration:  Change expiration to 180 days for stronger passwords with MFA.
+5. Encourage Password Manager Use: Help users manage secure, unique passwords.
+6. User Training: Provide training on strong password creation and common pitfalls.
+
+# Task 2: Device Security Basics
+
+# Device Configuration
+1. Automatic Updates: Enabled for consistent security patches.
+2. Screen Lock : Set to activate after 5 minutes of inactivity.
+3. Standard User Account : Created a non-admin account for limited access.
+
+# Antivirus Software
+- Installed: Free antivirus software installed.
+- Scan Results: Initial scan found no threats.
+
+# User Awareness Guide
+∆ Key Points:
+- Recognize Phishing : Avoid attachments or links from unknown sources.
+- Strong, Unique Passwords: Minimum 12 characters, with diverse character types.
+- Avoid Suspicious Websites: Stick to trusted sources and avoid unknown downloads.
